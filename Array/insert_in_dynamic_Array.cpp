@@ -30,9 +30,6 @@ int main(){
        cout<<*ptr<<" ";
     }
     
-    
-    
-    
 
     return 0; 
 }
