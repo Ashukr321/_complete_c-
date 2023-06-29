@@ -9,7 +9,7 @@ int getLargeestEleIdx(int arr[],int n);
 int main(){
 
     //create the array 
-    int arr[]= {4,5,6,7,4,544,4,5,5,56,6,6,66,77,1000};
+    int arr[]= {4,5,6,7,4,544,4,5,5,2,56,6,6,66,77,1000};
     int n = sizeof(arr)/sizeof(int);
     int idx  = getLargeestEleIdx(arr,n);
     cout <<arr[idx]<<" ->  index : "<<idx<< endl;
@@ -39,8 +39,7 @@ int getLargeestEleIdx(int arr[],int n){
         {
             return i;
         }
-        
-        
+          
     }
     
     return -1;
