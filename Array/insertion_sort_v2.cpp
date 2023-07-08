@@ -41,9 +41,12 @@ int main()
         64,
         32,
     };
+
+
     int n = sizeof(arr) / sizeof(int);
     insertionSort(arr,n);
     printArray(arr,n);
     return 0;
 }
 // time complexity o(n^2);
+
